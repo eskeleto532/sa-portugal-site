@@ -11,9 +11,9 @@ import { toast } from "sonner";
  */
 
 const formSchema = z.object({
-  name: z.string().min(2, { message: "O nome deve ter pelo menos 2 caracteres." }),
+  name: z.string().min(2, { message: "O nome deve ter pelo menos 2 caractéres." }),
   email: z.string().email({ message: "Por favor, insira um email válido." }),
-  message: z.string().min(10, { message: "A mensagem deve ter pelo menos 10 caracteres." }),
+  message: z.string().min(10, { message: "A mensagem deve ter pelo menos 10 caractéres." }),
 });
 
 type FormValues = z.infer<typeof formSchema>;
@@ -35,7 +35,7 @@ export default function ContactForm() {
 
       window.location.href = mailtoLink;
 
-      toast.success("Abrindo seu cliente de email para enviar a mensagem!");
+      toast.success("A abrir o seu cliente de email para enviar a mensagem!");
       reset();
 
     } catch (error) {
@@ -50,13 +50,13 @@ export default function ContactForm() {
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4 mb-8">
         <div>
           <label htmlFor="name" className="block text-sm font-semibold text-[#2C3E50] mb-2">
-            Seu Nome
+            Nome
           </label>
           <input
             type="text"
             id="name"
             {...register("name")}
-            placeholder="Digite seu nome (pode ser fictício)"
+            placeholder="Digite o seu nome (pode ser fictício)"
             className="w-full px-4 py-3 border border-[#E8EDF3] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#4A90A4] bg-white text-[#2C3E50]"
           />
           {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name.message}</p>}
@@ -64,7 +64,7 @@ export default function ContactForm() {
 
         <div>
           <label htmlFor="email" className="block text-sm font-semibold text-[#2C3E50] mb-2">
-            Seu Email
+            Email
           </label>
           <input
             type="email"
@@ -95,7 +95,7 @@ export default function ContactForm() {
           disabled={isSubmitting}
           className="w-full bg-[#4A90A4] hover:bg-[#3A7A94] text-white px-8 py-6 text-lg rounded-lg transition-all hover:shadow-lg disabled:bg-gray-400"
         >
-          {isSubmitting ? "Enviando..." : "Solicitar Link"}
+          {isSubmitting ? "A enviar..." : "Solicitar Link"}
         </Button>
       </form>
 
@@ -143,7 +143,7 @@ export default function ContactForm() {
       {/* Privacy Note */}
       <div className="mt-8 p-4 bg-[#F5F7FA] rounded-lg border border-[#E8EDF3]">
         <p className="text-xs text-[#7A8FA3]">
-          <strong>Privacidade:</strong> Suas informações são confidenciais e serão usadas apenas para enviar o link do Zoom. Seu anonimato é protegido.
+          <strong>Privacidade:</strong> As suas informações são confidenciais e serão usadas apenas para enviar o link do Zoom. O seu anonimato é protegido.
         </p>
       </div>
     </div>

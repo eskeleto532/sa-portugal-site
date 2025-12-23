@@ -186,12 +186,12 @@ export default function Home() {
               />
             </div>
             <div className="order-1 md:order-2">
-              <h3 className="text-4xl font-bold text-[#2C3E50] mb-6">A sua Jornada de Recuperação</h3>
+              <h3 className="text-4xl font-bold text-[#2C3E50] mb-6">A Sua Jornada de Recuperação</h3>
               <p className="text-lg text-[#7A8FA3] mb-6 leading-relaxed">
                 A recuperação é uma jornada pessoal. Cada pessoa avança ao seu próprio ritmo, com o apoio de uma comunidade que entende verdadeiramente pelo que está a passar.
               </p>
               <p className="text-lg text-[#7A8FA3] mb-8 leading-relaxed">
-                Os 12 Passos levam-nos a uma transformação espiritual profunda. Você vai aprender a:
+                Os 12 Passos levam-nos a uma transformação espiritual profunda. Vai aprender a:
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex gap-3">
@@ -231,7 +231,7 @@ export default function Home() {
       {/* Journey Section */}
       <section id="jornada" className="py-20 bg-[#F5F7FA]">
         <div className="container max-w-6xl mx-auto px-4">
-          <h2 className="text-4xl font-bold text-[#2C3E50] mb-4 text-center">A sua Jornada de Recuperação</h2>
+          <h2 className="text-4xl font-bold text-[#2C3E50] mb-4 text-center">A Sua Jornada de Recuperação</h2>
           <p className="text-lg text-[#7A8FA3] text-center mb-12">
             Tem dúvidas? Quer saber mais? Estamos aqui para ajudar. Não hesite em nos contactar.
           </p>
