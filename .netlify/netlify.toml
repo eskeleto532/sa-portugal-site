@@ -1,0 +1,42 @@
+redirectsOrigin = "config"
+plugins = []
+functionsDirectory = "/home/rsarmento/Documents/0 Personal Stuff 0/SA/Site/sa_porto_editado/sa_porto_edit/dist"
+functionsDirectoryOrigin = "config-v1"
+headers = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/home/rsarmento/Documents/0 Personal Stuff 0/SA/Site/sa_porto_editado/sa_porto_edit/dist/public"
+publishOrigin = "config"
+commandOrigin = "config"
+command = "npm run build"
+functions = "/home/rsarmento/Documents/0 Personal Stuff 0/SA/Site/sa_porto_editado/sa_porto_edit/dist"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
