@@ -45,7 +45,7 @@ export default function ContactForm() {
 
   return (
     <div className="bg-white rounded-lg border border-[#E8EDF3] p-8">
-      <h3 className="text-2xl font-bold text-[#2C3E50] mb-6">Solicite o Link do Zoom</h3>
+      <h3 className="text-2xl font-bold text-[#2C3E50] mb-6">Envie-nos uma mensagem</h3>
 
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4 mb-8">
         <div>
@@ -95,7 +95,7 @@ export default function ContactForm() {
           disabled={isSubmitting}
           className="w-full bg-[#4A90A4] hover:bg-[#3A7A94] text-white px-8 py-6 text-lg rounded-lg transition-all hover:shadow-lg disabled:bg-gray-400"
         >
-          {isSubmitting ? "A enviar..." : "Solicitar Link"}
+          {isSubmitting ? "A enviar..." : "Enviar Mensagem"}
         </Button>
       </form>
 

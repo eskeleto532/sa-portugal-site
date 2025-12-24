@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
         <div className="border-t border-gray-700 pt-8 text-center text-sm text-gray-400">
           <p>© 2025 Sexólicos Anónimos Portugal. Todos os direitos reservados.</p>
-          <p className="mt-2">O anonimato é a base espiritual de todos os nossos tradições.</p>
+          <p className="mt-2">O anonimato é a base espiritual de todas as nossas tradições.</p>
         </div>
       </div>
     </footer>
