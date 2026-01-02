@@ -24,7 +24,7 @@ const testimonials: Testimonial[] = [
     name: "Marina L.",
     location: "Rio de Janeiro, Brasil",
     story:
-      "Como mulher, sentia-me muito isolada. Pensava que era a única mulher com esse problema. Nas reuniões de SA, conheci outras mulheres com histórias semelhantes e encontrei esperança. O apoio da comunidade foi fundamental. Aprendi a amar a mim mesma e a estabelecer limites saudáveis. Hoje, sou livre.",
+      "Como mulher, sentia-me muito isolada. Pensava que era a única mulher com esse problema. Nas reuniões de SA, conheci outras mulheres com histórias semelhantes e encontrei esperança. O apoio da irmandade foi fundamental. Aprendi a amar a mim mesma e a estabelecer limites saudáveis. Hoje, sou livre.",
     highlight: "Aprendi que sou digna de amor e recuperação.",
   },
   {
@@ -38,14 +38,14 @@ const testimonials: Testimonial[] = [
     name: "Juliana P.",
     location: "Brasília, Brasil",
     story:
-      "Comecei a participar de SA com muito medo e vergonha. Mas a comunidade me recebeu com braços abertos. Ninguém julgou, apenas apoiou. Aprendi que meu comportamento compulsivo era uma forma de lidar com trauma e ansiedade. Com o tempo e o trabalho dos passos, consegui processar essas emoções de forma saudável. Agora, tenho uma vida plena.",
+      "Comecei a participar de SA com muito medo e vergonha. Mas a irmandade me recebeu com braços abertos. Ninguém julgou, apenas apoiou. Aprendi que meu comportamento compulsivo era uma forma de lidar com trauma e ansiedade. Com o tempo e o trabalho dos passos, consegui processar essas emoções de forma saudável. Agora, tenho uma vida plena.",
     highlight: "Encontrei cura emocional e paz interior.",
   },
   {
     name: "Fernando T.",
     location: "Salvador, Brasil",
     story:
-      "Eu era viciado em pornografia e comportamentos sexuais compulsivos. Isso afetava minha autoestima e meus relacionamentos. SA me mostrou que havia esperança. O programa não é sobre perfeição, é sobre progresso. Tive recaídas, mas a comunidade nunca me abandonou. Hoje, sou uma pessoa diferente - mais íntegra, mais honesta comigo mesmo.",
+      "Eu era viciado em pornografia e comportamentos sexuais compulsivos. Isso afetava minha autoestima e meus relacionamentos. SA me mostrou que havia esperança. O programa não é sobre perfeição, é sobre progresso. Tive recaídas, mas a irmandade nunca me abandonou. Hoje, sou uma pessoa diferente - mais íntegra, mais honesta comigo mesmo.",
     highlight: "Aprendi que progresso, não perfeição, é o objetivo.",
   },
   {

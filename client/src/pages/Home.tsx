@@ -32,7 +32,7 @@ export default function Home() {
               Comece a Sua Jornada de Recuperação
             </h2>
             <p className="text-xl text-[#7A8FA3] mb-8 leading-relaxed">
-              Sexólicos Anónimos é uma comunidade de apoio onde homens e mulheres partilham experiência, força e esperança para resolver os seus problemas de sexualidade compulsiva.
+              Sexólicos Anónimos é uma irmandade de apoio onde homens e mulheres partilham experiência, força e esperança para resolver os seus problemas com a luxúria.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
@@ -60,16 +60,19 @@ export default function Home() {
             <div>
               <h3 className="text-4xl font-bold text-[#2C3E50] mb-6">O que é Sexólicos Anónimos?</h3>
               <p className="text-lg text-[#7A8FA3] mb-6 leading-relaxed">
-                Sexólicos Anónimos é uma irmandade de homens e mulheres que partilham experiência, força e esperança uns com os outros para resolver o seu problema comum e ajudar outros a recuperar. O foco da nossa comunidade é a recuperação de comportamentos sexuais compulsivos e o retorno a uma vida sexual sóbria e saudável.
+              Sexólicos Anônimos é uma irmandade de homens e mulheres que partilham a sua experiência, força e esperança para resolver o seu problema comum e ajudarem outros a recuperar. O único requisito para se ser membro é o desejo de libertar-se da luxúria e de alcançar a sobriedade sexual. Não há taxas nem mensalidades para se tornar membro de SA; somos auto-sustentáveis por meio das nossas próprias contribuições.
               </p>
               <p className="text-lg text-[#7A8FA3] mb-6 leading-relaxed">
-                Somos um programa de 12 passos baseado em princípios espirituais que levam a uma transformação pessoal profunda. Não há quotas, taxas de admissão ou requisitos além do desejo de parar comportamentos sexuais compulsivos.
+              SA não é afiliado a nenhuma seita, denominação, movimento político, organização ou instituição de qualquer espécie; não deseja envolver-se em controvérsias; não apoia nem se opõe a qualquer causa. O nosso propósito primordial é permanecermos sexualmente sóbrios e ajudar outros sexólicos a alcançar a sobriedade sexual.
+              </p>
+              <p className="text-lg text-[#7A8FA3] mb-6 leading-relaxed">
+              Somos um programa de 12 passos baseado em princípios espirituais que levam a uma transformação pessoal profunda.
               </p>
               <div className="space-y-4">
                 <div className="flex gap-4">
                   <Users className="w-6 h-6 text-[#4A90A4] flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-[#2C3E50] mb-2">Comunidade de Apoio</h4>
+                    <h4 className="font-semibold text-[#2C3E50] mb-2">Irmandade de Apoio</h4>
                     <p className="text-[#7A8FA3]">Encontre pessoas que entendem o seu problema e estão na mesma jornada.</p>
                   </div>
                 </div>
@@ -88,11 +91,19 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <div className="flex flex-col sm:flex-row gap-4 mt-8 mb-8">
+                <Button asChild className="bg-[#4A90A4] hover:bg-[#3A7A94] text-white px-6 py-3 rounded-lg transition-all hover:shadow-lg">
+                  <Link href="/sou-sexolico">Sou Sexólico?</Link>
+                </Button>
+                <Button asChild variant="outline" className="border-[#4A90A4] text-[#4A90A4] hover:bg-[#F5F7FA] px-6 py-3 rounded-lg transition-all">
+                  <Link href="/12-passos">Os 12 Passos</Link>
+                </Button>
+              </div>
             </div>
             <div className="relative h-96 rounded-lg overflow-hidden shadow-lg">
               <img
                 src="/community-support.jpg"
-                alt="Comunidade de apoio"
+                alt="Irmandade de apoio"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -114,7 +125,7 @@ export default function Home() {
             <div className="order-1 md:order-2">
               <h3 className="text-4xl font-bold text-[#2C3E50] mb-6">A Sua Jornada de Recuperação</h3>
               <p className="text-lg text-[#7A8FA3] mb-6 leading-relaxed">
-                A recuperação é uma jornada pessoal. Cada pessoa avança ao seu próprio ritmo, com o apoio de uma comunidade que entende verdadeiramente pelo que está a passar.
+                A recuperação é uma jornada pessoal. Cada pessoa progride com o apoio de uma irmandade que entende verdadeiramente pelo que está a passar.
               </p>
               <p className="text-lg text-[#7A8FA3] mb-8 leading-relaxed">
                 Os 12 Passos levam-nos a uma transformação espiritual profunda. Vai aprender a:
@@ -174,10 +185,11 @@ export default function Home() {
                 </div>
               </div>
               <div className="border-t border-[#E8EDF3] pt-6">
-                <Button asChild className="bg-[#4A90A4] hover:bg-[#3A7A94] text-white px-6 py-3 text-sm rounded-lg transition-all hover:shadow-lg">
-                  <a href="https://us06web.zoom.us/j/3791145846?omn=87960243440" target="_blank" rel="noopener noreferrer">
-                    Entrar na Reunião
-                  </a>
+                <Button
+                  onClick={() => document.getElementById("contato-form")?.scrollIntoView({ behavior: "smooth" })}
+                  className="bg-[#4A90A4] hover:bg-[#3A7A94] text-white px-6 py-3 text-sm rounded-lg transition-all hover:shadow-lg"
+                >
+                  Pedir Link
                 </Button>
               </div>
             </div>
@@ -202,10 +214,11 @@ export default function Home() {
                 </div>
               </div>
               <div className="border-t border-[#E8EDF3] pt-6">
-                <Button asChild className="bg-[#4A90A4] hover:bg-[#3A7A94] text-white px-6 py-3 text-sm rounded-lg transition-all hover:shadow-lg">
-                  <a href="https://us06web.zoom.us/j/3791145846?omn=87960243440" target="_blank" rel="noopener noreferrer">
-                    Entrar na Reunião
-                  </a>
+                <Button
+                  onClick={() => document.getElementById("contato-form")?.scrollIntoView({ behavior: "smooth" })}
+                  className="bg-[#4A90A4] hover:bg-[#3A7A94] text-white px-6 py-3 text-sm rounded-lg transition-all hover:shadow-lg"
+                >
+                  Pedir Link
                 </Button>
               </div>
             </div>

@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://saportugal.org/sitemap.xml

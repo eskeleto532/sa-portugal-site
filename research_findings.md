@@ -12,7 +12,7 @@
 ### Solução Oferecida
 - Programa de 12 passos
 - Reuniões de apoio
-- Comunidade de recuperação
+- Irmandade de recuperação
 - Transformação espiritual
 
 ## Estrutura e Princípios

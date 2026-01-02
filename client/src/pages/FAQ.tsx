@@ -46,7 +46,7 @@ const faqItems: FAQItem[] = [
   {
     question: "Preciso acreditar em Deus para participar?",
     answer:
-      "SA é um programa espiritual, não religioso. Não precisa de seguir nenhuma religião específica. O 'Poder Superior' em SA pode ser qualquer coisa que funcione para si - pode ser Deus, a comunidade, a natureza ou qualquer conceito que o ajude na recuperação.",
+      "SA é um programa espiritual, não religioso. Não precisa de seguir nenhuma religião específica. O 'Poder Superior' em SA pode ser qualquer coisa que funcione para si - pode ser Deus, a irmandade, a natureza ou qualquer conceito que o ajude na recuperação.",
   },
   {
     question: "Como obtenho o link do Zoom para as reuniões?",

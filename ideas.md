@@ -22,7 +22,7 @@ Fundo branco puro (confiança, clareza), textos em cinza-escuro (acessibilidade)
 Estrutura linear e vertical, com seções bem delimitadas. Cada seção ocupa a altura total da tela (full-height sections), criando pausas naturais para o usuário processar informações. Uso de whitespace generoso entre elementos.
 
 **Signature Elements**:
-- Ícones minimalistas (linhas finas, geométricos) representando conceitos como comunidade, esperança, recuperação
+- Ícones minimalistas (linhas finas, geométricos) representando conceitos como irmandade, esperança, recuperação
 - Linhas divisórias sutis em verde-azulado para separar seções
 - Tipografia em duas famílias: Sans-serif assertiva para títulos (Poppins Bold), serif elegante para corpo (Lora Regular)
 

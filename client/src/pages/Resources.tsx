@@ -33,7 +33,7 @@ export default function Resources() {
             <div className="bg-gradient-to-br from-[#F5F7FA] to-white rounded-lg p-8 border border-[#E8EDF3] hover:shadow-lg transition-shadow">
               <h3 className="text-2xl font-bold text-[#2C3E50] mb-4">SA Portugal</h3>
               <p className="text-[#7A8FA3] mb-6">
-                Reuniões por Zoom todas as segundas e quartas-feiras.
+                Reuniões por Zoom todas as segundas e quartas-feiras. Reuniões presenciais todos os sábados.
               </p>
               <div className="space-y-3 mb-6">
                 <div className="flex items-start gap-3">
@@ -57,54 +57,6 @@ export default function Resources() {
               </div>
               <a href="/" className="inline-flex items-center gap-2 text-[#4A90A4] hover:text-[#3A7A94] font-semibold">
                 Voltar para SA Portugal <ExternalLink className="w-4 h-4" />
-              </a>
-            </div>
-
-            {/* SAA Portugal */}
-            <div className="bg-gradient-to-br from-[#F5F7FA] to-white rounded-lg p-8 border border-[#E8EDF3] hover:shadow-lg transition-shadow">
-              <h3 className="text-2xl font-bold text-[#2C3E50] mb-4">SAA Portugal - Adictos ao Sexo Anônimos</h3>
-              <p className="text-[#7A8FA3] mb-6">
-                Reuniões em Lisboa e outras cidades de Portugal. Programa de 12 passos para recuperação de vício sexual.
-              </p>
-              <div className="space-y-3 mb-6">
-                <div className="flex items-start gap-3">
-                  <Mail className="w-5 h-5 text-[#4A90A4] mt-1 flex-shrink-0" />
-                  <div>
-                    <p className="font-semibold text-[#2C3E50]">Email</p>
-                    <a href="mailto:saalisbon@gmail.com" className="text-[#4A90A4] hover:text-[#3A7A94]">
-                      saalisbon@gmail.com
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <a
-                href="https://saaportugal.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-[#4A90A4] hover:text-[#3A7A94] font-semibold"
-              >
-                Visitar Site <ExternalLink className="w-4 h-4" />
-              </a>
-            </div>
-
-            {/* SRA Portugal */}
-            <div className="bg-gradient-to-br from-[#F5F7FA] to-white rounded-lg p-8 border border-[#E8EDF3] hover:shadow-lg transition-shadow">
-              <h3 className="text-2xl font-bold text-[#2C3E50] mb-4">SRA Portugal - Recuperação Sexual Anônimos</h3>
-              <p className="text-[#7A8FA3] mb-6">
-                Programa de recuperação para comportamentos sexuais compulsivos. Reuniões em diferentes cidades de Portugal.
-              </p>
-              <div className="space-y-3 mb-6">
-                <p className="text-sm text-[#7A8FA3]">
-                  Sem quotas ou taxas de admissão. O único requisito é o desejo de parar com comportamentos sexuais compulsivos.
-                </p>
-              </div>
-              <a
-                href="https://www.sra-portugal.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-[#4A90A4] hover:text-[#3A7A94] font-semibold"
-              >
-                Visitar Site <ExternalLink className="w-4 h-4" />
               </a>
             </div>
           </div>

@@ -20,7 +20,13 @@ export default function Navbar() {
         </>
       )}
       <Link href="/">
-        <a className="text-lg text-gray-700 hover:text-[#4A90A4]" onClick={() => setIsMenuOpen(false)}>Home</a>
+        <a className="text-lg text-gray-700 hover:text-[#4A90A4]" onClick={() => setIsMenuOpen(false)}>Início</a>
+      </Link>
+      <Link href="/sou-sexolico">
+        <a className="text-lg text-gray-700 hover:text-[#4A90A4]" onClick={() => setIsMenuOpen(false)}>Sou Sexólico?</a>
+      </Link>
+      <Link href="/12-passos">
+        <a className="text-lg text-gray-700 hover:text-[#4A90A4]" onClick={() => setIsMenuOpen(false)}>12 Passos</a>
       </Link>
       <Link href="/testemunhos">
         <a className="text-lg text-gray-700 hover:text-[#4A90A4]" onClick={() => setIsMenuOpen(false)}>Testemunhos</a>
@@ -39,9 +45,7 @@ export default function Navbar() {
       <div className="container max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/">
           <a className="flex items-center gap-2 cursor-pointer">
-            <div className="w-8 h-8 rounded-full bg-[#4A90A4] flex items-center justify-center">
-              <Heart className="w-5 h-5 text-white" />
-            </div>
+            <img src="/SAlogo.png" alt="SA Portugal Logo" className="h-8 w-auto object-contain" />
             <h1 className="text-xl font-bold text-[#2C3E50]">SA Portugal</h1>
           </a>
         </Link>
@@ -54,7 +58,9 @@ export default function Navbar() {
               <a href="#reunioes" className="text-[#2C3E50] hover:text-[#4A90A4] transition-colors">Reuniões</a>
             </>
           )}
-          <Link href="/"><a className="text-[#2C3E50] hover:text-[#4A90A4] transition-colors">Home</a></Link>
+          <Link href="/"><a className="text-[#2C3E50] hover:text-[#4A90A4] transition-colors">Início</a></Link>
+          <Link href="/sou-sexolico"><a className="text-[#2C3E50] hover:text-[#4A90A4] transition-colors">Sou Sexólico?</a></Link>
+          <Link href="/12-passos"><a className="text-[#2C3E50] hover:text-[#4A90A4] transition-colors">12 Passos</a></Link>
           <Link href="/testemunhos"><a className="text-[#2C3E50] hover:text-[#4A90A4] transition-colors">Testemunhos</a></Link>
           <Link href="/faq"><a className="text-[#2C3E50] hover:text-[#4A90A4] transition-colors">FAQ</a></Link>
           <Link href="/recursos"><a className="text-[#2C3E50] hover:text-[#4A90A4] transition-colors">Recursos</a></Link>

@@ -6,6 +6,8 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Layout from "./components/Layout";
+import SouSexolico from "./pages/SouSexolico";
+import DozePassos from "./pages/12Passos";
 
 const Home = lazy(() => import("./pages/Home"));
 const Resources = lazy(() => import("./pages/Resources"));
@@ -18,6 +20,8 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
+      <Route path="/sou-sexolico" component={SouSexolico} />
+      <Route path="/12-passos" component={DozePassos} />
       <Route path="/recursos" component={Resources} />
       <Route path="/faq" component={FAQ} />
       <Route path="/testemunhos" component={Testimonials} />

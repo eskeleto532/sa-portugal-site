@@ -7,19 +7,19 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-6 h-6 rounded-full bg-[#4A90A4] flex items-center justify-center">
-                <Heart className="w-4 h-4" />
+              <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
+                <img src="/SAlogo.png" alt="SA Portugal Logo" className="h-5 w-auto object-contain" />
               </div>
               <h5 className="font-bold">SA Portugal</h5>
             </div>
             <p className="text-gray-300 text-sm">
-              Uma comunidade de apoio para recuperação de comportamentos sexuais compulsivos.
+              Uma irmandade de apoio para recuperação da luxúria e comportamentos sexuais compulsivos.
             </p>
           </div>
           <div>
             <h5 className="font-bold mb-4">Navegação</h5>
             <ul className="space-y-2 text-sm text-gray-300">
-              <li><a href="/" className="hover:text-white transition-colors">Home</a></li>
+              <li><a href="/" className="hover:text-white transition-colors">Início</a></li>
               <li><a href="/testemunhos" className="hover:text-white transition-colors">Testemunhos</a></li>
               <li><a href="/faq" className="hover:text-white transition-colors">FAQ</a></li>
               <li><a href="/recursos" className="hover:text-white transition-colors">Recursos</a></li>
