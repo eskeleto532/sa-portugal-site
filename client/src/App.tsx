@@ -8,6 +8,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Layout from "./components/Layout";
 import SouSexolico from "./pages/SouSexolico";
 import DozePassos from "./pages/12Passos";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const Home = lazy(() => import("./pages/Home"));
 const Resources = lazy(() => import("./pages/Resources"));
@@ -18,7 +19,9 @@ const NotFound = lazy(() => import("@/pages/NotFound"));
 
 function Router() {
   return (
-    <Switch>
+    <>
+      <ScrollToTop />
+      <Switch>
       <Route path="/" component={Home} />
       <Route path="/sou-sexolico" component={SouSexolico} />
       <Route path="/12-passos" component={DozePassos} />
@@ -29,6 +32,7 @@ function Router() {
       {/* Final fallback route */}
       <Route component={NotFound} />
     </Switch>
+    </>
   );
 }
 

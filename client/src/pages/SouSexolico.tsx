@@ -5,13 +5,13 @@ const SouSexolico = () => {
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold text-[#2C3E50] mb-6 text-center">O que é um Sexólico e o que é a Sobriedade Sexual?</h1>
           <div className="text-lg text-[#7A8FA3] space-y-6 leading-relaxed">
-            <p>
+            <p className="text-justify">
               Podemos falar somente por nós mesmos. A natureza especializada de Sexólicos Anónimos pode ser melhor entendida em termos do que chamamos de sexólico. O sexólico removeu-se do contexto do que é certo ou errado. Ele ou ela perdeu o controle, não mais tem poder de escolha e não está livre para parar. A luxúria tornou-se numa adicção. A nossa situação é como a do alcoólico que não consegue tolerar mais o álcool e precisa de deixar de beber, mas está viciado e não consegue parar. Assim é também para o sexólico, ou bêbado sexual, que já não consegue tolerar a luxúria, mas não consegue parar.
             </p>
-            <p>
+            <p className="text-justify">
               Dessa forma, para o sexólico, qualquer forma de sexo consigo mesmo ou com parceiros além do cônjuge é progressivamente adictiva e destrutiva. Também vemos que a luxúria é a força motora por trás das nossas acções sexuais e que a verdadeira sobriedade inclui a vitória progressiva sobre a luxúria. Essas conclusões foram-nos impostas no decorrer de nossa experiência e recuperação; não temos outra opção. Mas descobrimos que a aceitação destes factos é a chave para uma liberdade, alegria e felicidade que de outra forma jamais poderíamos vir a conhecer.
             </p>
-            <p>
+            <p className="text-justify">
               Estas ideias deverão desencorajar muitos que admitem a obsessão ou compulsão sexual, mas que simplesmente a querem controlar e dela desfrutar, tal como o alcoólico gostaria de controlar a bebida e desfrutar de seu consumo. Até que chegamos a um ponto de desespero, até que quisemos verdadeiramente parar mas mostramo-nos incapazes, não nos entregamos a este programa de recuperação. Sexólicos Anónimos é para quem sabe que não tem outra opção além de parar e é seu próprio interesse pessoal que deve convencê-lo disso.
             </p>
           </div>

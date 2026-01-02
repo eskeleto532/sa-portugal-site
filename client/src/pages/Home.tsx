@@ -59,13 +59,13 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
               <h3 className="text-4xl font-bold text-[#2C3E50] mb-6">O que é Sexólicos Anónimos?</h3>
-              <p className="text-lg text-[#7A8FA3] mb-6 leading-relaxed">
-              Sexólicos Anônimos é uma irmandade de homens e mulheres que partilham a sua experiência, força e esperança para resolver o seu problema comum e ajudarem outros a recuperar. O único requisito para se ser membro é o desejo de libertar-se da luxúria e de alcançar a sobriedade sexual. Não há taxas nem mensalidades para se tornar membro de SA; somos auto-sustentáveis por meio das nossas próprias contribuições.
+              <p className="text-lg text-[#7A8FA3] mb-6 leading-relaxed text-justify">
+              Sexólicos Anónimos é uma irmandade de homens e mulheres que partilham a sua experiência, força e esperança para resolver o seu problema comum e ajudarem outros a recuperar. O único requisito para se ser membro é o desejo de libertar-se da luxúria e de alcançar a sobriedade sexual. Não há taxas nem mensalidades para se tornar membro de SA; somos auto-sustentáveis por meio das nossas próprias contribuições.
               </p>
-              <p className="text-lg text-[#7A8FA3] mb-6 leading-relaxed">
+              <p className="text-lg text-[#7A8FA3] mb-6 leading-relaxed text-justify">
               SA não é afiliado a nenhuma seita, denominação, movimento político, organização ou instituição de qualquer espécie; não deseja envolver-se em controvérsias; não apoia nem se opõe a qualquer causa. O nosso propósito primordial é permanecermos sexualmente sóbrios e ajudar outros sexólicos a alcançar a sobriedade sexual.
               </p>
-              <p className="text-lg text-[#7A8FA3] mb-6 leading-relaxed">
+              <p className="text-lg text-[#7A8FA3] mb-6 leading-relaxed text-justify">
               Somos um programa de 12 passos baseado em princípios espirituais que levam a uma transformação pessoal profunda.
               </p>
               <div className="space-y-4">
