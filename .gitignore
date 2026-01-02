@@ -109,5 +109,4 @@ temp/
 .netlify/
 .vercel
 
-# Vercel API directory
-/api
+
